@@ -5,12 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "scheme": "your-app-scheme",
+    "userInterfaceStyle": "dark",
+    "scheme": "music-player",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,7 +21,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000"
       }
     },
     "web": {
@@ -29,6 +29,10 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "experiments":{
+      "typedRoutes":true,
+      "tsconfigPaths":true
+    }
   }
 }
