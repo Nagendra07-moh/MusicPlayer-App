@@ -6,7 +6,7 @@ const TabsNavigation = () => {
 			<Tabs.Screen name="favorites" />
 			<Tabs.Screen name="playlists" />
 			<Tabs.Screen name="(songs)" />
-			<Tabs.Screen name="artists" />
+			<Tabs.Screen name="artists " />
 		</Tabs>
 	)
 }
